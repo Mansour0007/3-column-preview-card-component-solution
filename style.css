@@ -26,6 +26,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: var(--Very-light-gray-background-headings-buttons);
 }
 .wrapper {
   max-width: 800px;
