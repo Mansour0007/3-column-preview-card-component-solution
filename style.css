@@ -33,7 +33,7 @@ body {
   display: flex;
 }
 .card {
-  padding: 5%;
+  padding: 3rem;
 }
 .card .card__image img {
   width: 50px;
@@ -62,6 +62,10 @@ body {
   background-color: var(--Very-light-gray-background-headings-buttons);
   cursor: pointer;
 }
+a {
+  text-decoration: none;
+}
+
 .btn__orange {
   color: var(--Bright-orange);
 }
@@ -69,6 +73,12 @@ body {
   background-color: var(--Bright-orange);
   color: var(--Very-light-gray-background-headings-buttons);
   border: 1px solid var(--Very-light-gray-background-headings-buttons);
+}
+.btn__orange a {
+  color: var(--Bright-orange);
+}
+.btn__orange:hover a {
+  color: var(--Very-light-gray-background-headings-buttons);
 }
 .btn__cyan {
   color: var(--Dark-cyan);
@@ -78,6 +88,13 @@ body {
   color: var(--Very-light-gray-background-headings-buttons);
   border: 1px solid var(--Very-light-gray-background-headings-buttons);
 }
+.btn__cyan a {
+  color: var(--Dark-cyan);
+}
+.btn__cyan:hover a {
+  color: var(--Very-light-gray-background-headings-buttons);
+}
+
 .btn__darkcyan {
   color: var(--Very-dark-cyan);
 }
@@ -85,6 +102,12 @@ body {
   background-color: var(--Very-dark-cyan);
   color: var(--Very-light-gray-background-headings-buttons);
   border: 1px solid var(--Very-light-gray-background-headings-buttons);
+}
+.btn__darkcyan a {
+  color: var(--Very-dark-cyan);
+}
+.btn__darkcyan:hover a {
+  color: var(--Very-light-gray-background-headings-buttons);
 }
 .card--orange {
   background-color: var(--Bright-orange);
@@ -107,7 +130,7 @@ body {
   }
   .card {
     max-width: 280px;
-    padding: 10%;
+    padding: 3rem;
   }
   .card--orange {
     border-radius: 5px 5px 0 0;
